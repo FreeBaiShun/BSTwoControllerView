@@ -5,6 +5,8 @@
 ![image](https://github.com/FreeBaiShun/BSTwoControllerView/blob/master/BSTwoControllerView.gif)
 
 # 用法
+pod 'BSTwoControllerView'
+
 ```
 #import "ViewController.h"
 #import "OneVC.h"
