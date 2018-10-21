@@ -15,6 +15,9 @@
 		3353088E217C95DD0087AF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3353088D217C95DD0087AF2A /* main.m */; };
 		33530898217C95DD0087AF2A /* BSTwoControllerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33530897217C95DD0087AF2A /* BSTwoControllerViewDemoTests.m */; };
 		335308A3217C95DD0087AF2A /* BSTwoControllerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335308A2217C95DD0087AF2A /* BSTwoControllerViewDemoUITests.m */; };
+		335308B3217C95FF0087AF2A /* BSTwoControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335308B2217C95FF0087AF2A /* BSTwoControllerView.m */; };
+		335308B6217C96210087AF2A /* OneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 335308B5217C96210087AF2A /* OneVC.m */; };
+		335308B9217C96460087AF2A /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 335308B8217C96460087AF2A /* TwoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		3353089E217C95DD0087AF2A /* BSTwoControllerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSTwoControllerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		335308A2217C95DD0087AF2A /* BSTwoControllerViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTwoControllerViewDemoUITests.m; sourceTree = "<group>"; };
 		335308A4217C95DD0087AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335308B1217C95FF0087AF2A /* BSTwoControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTwoControllerView.h; sourceTree = "<group>"; };
+		335308B2217C95FF0087AF2A /* BSTwoControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTwoControllerView.m; sourceTree = "<group>"; };
+		335308B4217C96210087AF2A /* OneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneVC.h; sourceTree = "<group>"; };
+		335308B5217C96210087AF2A /* OneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneVC.m; sourceTree = "<group>"; };
+		335308B7217C96460087AF2A /* TwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
+		335308B8217C96460087AF2A /* TwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		3353087D217C95DC0087AF2A /* BSTwoControllerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				335308B0217C95EA0087AF2A /* BSTwoControllerView */,
 				3353087E217C95DC0087AF2A /* AppDelegate.h */,
 				3353087F217C95DC0087AF2A /* AppDelegate.m */,
 				33530881217C95DC0087AF2A /* ViewController.h */,
@@ -110,6 +120,10 @@
 				33530889217C95DD0087AF2A /* LaunchScreen.storyboard */,
 				3353088C217C95DD0087AF2A /* Info.plist */,
 				3353088D217C95DD0087AF2A /* main.m */,
+				335308B7217C96460087AF2A /* TwoVC.h */,
+				335308B8217C96460087AF2A /* TwoVC.m */,
+				335308B4217C96210087AF2A /* OneVC.h */,
+				335308B5217C96210087AF2A /* OneVC.m */,
 			);
 			path = BSTwoControllerViewDemo;
 			sourceTree = "<group>";
@@ -130,6 +144,15 @@
 				335308A4217C95DD0087AF2A /* Info.plist */,
 			);
 			path = BSTwoControllerViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		335308B0217C95EA0087AF2A /* BSTwoControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				335308B1217C95FF0087AF2A /* BSTwoControllerView.h */,
+				335308B2217C95FF0087AF2A /* BSTwoControllerView.m */,
+			);
+			path = BSTwoControllerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				33530883217C95DC0087AF2A /* ViewController.m in Sources */,
+				335308B6217C96210087AF2A /* OneVC.m in Sources */,
 				3353088E217C95DD0087AF2A /* main.m in Sources */,
+				335308B9217C96460087AF2A /* TwoVC.m in Sources */,
+				335308B3217C95FF0087AF2A /* BSTwoControllerView.m in Sources */,
 				33530880217C95DC0087AF2A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
