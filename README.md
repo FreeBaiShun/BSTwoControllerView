@@ -1,5 +1,5 @@
 # BSTwoControllerView
-左右切换controller工具
+点击按钮实现两个界面的切换，如果用一个controller管理，那么代码显得过于庞大。这时候用BSTwoControllerView可以优雅的把代码分在两个controller来管理。
 
 # 效果
 ![image](https://github.com/FreeBaiShun/BSTwoControllerView/blob/master/BSTwoControllerView.gif)
